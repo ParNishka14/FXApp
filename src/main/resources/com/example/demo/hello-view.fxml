@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="plane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="416.0" style="-fx-background-color: #10101;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Button fx:id="loginButton" layoutX="194.0" layoutY="317.0" mnemonicParsing="false" onAction="#onLoginButtonClick" text="Войти" />
+      <PasswordField fx:id="passwordText" layoutX="140.0" layoutY="204.0" />
+      <TextField fx:id="loginText" layoutX="140.0" layoutY="162.0" />
+      <Label fx:id="textLabb" layoutX="140.0" layoutY="57.0" prefHeight="41.0" prefWidth="160.0" text="Ну это моя жопа">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="logintTextee" layoutX="88.0" layoutY="167.0" text="Login" />
+      <Label fx:id="passwordTextee" layoutX="76.0" layoutY="209.0" text="Password" />
+      <Label fx:id="errorLoginText" layoutX="138.0" layoutY="247.0" text="Неверный логин или пароль" visible="false" />
+   </children>
+</AnchorPane>
