@@ -9,7 +9,7 @@
       <Button fx:id="loginButton" layoutX="194.0" layoutY="317.0" mnemonicParsing="false" onAction="#onLoginButtonClick" text="Войти" />
       <PasswordField fx:id="passwordText" layoutX="140.0" layoutY="204.0" />
       <TextField fx:id="loginText" layoutX="140.0" layoutY="162.0" />
-      <Label fx:id="textLabb" layoutX="140.0" layoutY="57.0" prefHeight="41.0" prefWidth="160.0" text="Ну это моя жопа">
+      <Label fx:id="textLabb" layoutX="171.0" layoutY="59.0" prefHeight="37.0" prefWidth="75.0" text="HiPizza" textAlignment="CENTER">
          <font>
             <Font size="21.0" />
          </font>
